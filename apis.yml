@@ -1,22 +1,79 @@
 aid: involve-space
 name: Involve Space
-description: Involve Space is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Involve Space is an Italian stratospheric aerospace company building
+  real-time Earth intelligence. It operates autonomous high-altitude balloon
+  platforms (Stratostats) that loiter around 20 kilometers for hours, days, or
+  weeks to deliver continuous, high-resolution Earth observation, bridging the
+  gap between satellites, drones, and ground sensors. Its Neurostar AI flight
+  software autonomously controls individual balloons and networks of them
+  (LoonHive), while the CLEAR GeoAI platform turns captured imagery into
+  geospatial insights for disaster response, infrastructure and environmental
+  monitoring, security, and in-orbit-demonstration / payload validation. A
+  certified B Corporation headquartered in Italy with U.S. operations at the
+  Houston Spaceport, Involve Space is backed by Earlybird Venture Capital,
+  CDP Venture Capital, and an EIC Accelerator grant.
 url: https://raw.githubusercontent.com/api-evangelist/involve-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-identity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/671f5ec2f687d2f55fafe279/672b77fa628886bb6b6fa688_webclip.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Space
+- Aerospace
+- Earth Observation
+- Geospatial
+- Stratosphere
+- Remote Sensing
+- GeoAI
+- Satellite
+- Defense
+- Intelligence
 apis: []
+common:
+- type: Website
+  url: https://www.involvespace.eu/
+  name: Involve Space
+- type: About
+  url: https://www.involvespace.eu/company/about-us
+  name: About Involve Space
+- type: Blog
+  url: https://www.involvespace.eu/company/newsroom
+  name: Newsroom
+- type: Support
+  url: https://www.involvespace.eu/contact
+  name: Contact
+- type: PrivacyPolicy
+  url: https://www.involvespace.eu/legal/privacy-policy
+  name: Privacy Policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/involvespace/
+  name: LinkedIn
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
