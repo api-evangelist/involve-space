@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/671f5ec2f687d2f55fafe279/672b77fa628886bb6b6fa688_webclip.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
